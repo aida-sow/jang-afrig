@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+   <header >
+        <h1>Jàng Afrig </h1>
+        <p>Apprendre l'Afrique , un pays à la fois </p>
+    </header >
+    <nav>
+        <a href="index.html">Accueil </a> |
+        <a href="quiz.html">Jouer </a> |
+        <a href="scores.html">Mes Scores </a> |
+        <a href="apropos.html">À propos </a> |
+        <a href="contacts.html">Contacts</a>
+    </nav>
+    <main>
+        <p>
+            <label for="nom">Nom</label>
+            <input type="text" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" required>
+        </p>
+        <p>
+            <label for="sujet">Sujet</label>
+            <select name="sujet" id="sujet" required>
+                <option value="">-- Choisir une option --</option>
+                <option value="question">Question</option>
+                <option value="bug">Bug</option>
+                <option value="suggestion">Suggestion</option>
+            </select>
+        </p>
+        <p>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+        </p>
+        <p>
+            <button type="submit">Envoyer</button>
+        </p>
+        </main>
+        <footer>
+            <p>&copy; 2025--2026 Jàng Afrig --- L1 DUT1-Info, ESP/UCAD.</p>
+        </footer >
+</body>
+</html>
